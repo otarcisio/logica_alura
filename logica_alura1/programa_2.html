@@ -1,0 +1,33 @@
+<meta charset="UTF-8">
+
+<script>
+
+  function pulaLinha() {
+    document.write("<br>")
+  }
+
+  function mostra(frase) {
+    document.write(frase)
+    pulaLinha()
+  }
+
+
+  var ano = 2021;
+  var puloLinha = "<br>"
+
+  document.write("Tarcísio nasceu em " + (ano - 27) + "<br>");
+  document.write("Luana nasceu em " + (ano - 29) + "<br>");
+  document.write("Augusta nasceu em " + (ano - 52) + "<br>");
+
+  document.write("<br>");
+
+  document.write("Tarcísio nasceu em " + (ano - 27) + "<br>");
+  document.write(puloLinha)
+  document.write("Tarcísio nasceu em " + (ano - 27) + "<br>");
+  pulaLinha()
+  document.write("Tarcísio nasceu em " + (ano - 27) + "<br>");
+  pulaLinha()
+  mostra("Tarcísio nasceu em " + (ano - 27) + "<br>");
+  mostra("Luana nasceu em " + (ano - 29) + "<br>")
+
+</script>
