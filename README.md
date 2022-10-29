@@ -1,2 +1,4 @@
-# logica_alura
-Lógica de programação com JavaScript, este conteúdo faz parte do projeto ONE.
+# Lógica de programação
+
+
+Exercícios de lógica de programação, este projeto faz parte do ONE - One Next Education. 
